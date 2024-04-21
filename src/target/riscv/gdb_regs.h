@@ -95,8 +95,8 @@ enum gdb_regno {
 	GDB_REGNO_MEPC = CSR_MEPC + GDB_REGNO_CSR0,
 	GDB_REGNO_MCAUSE = CSR_MCAUSE + GDB_REGNO_CSR0,
 	GDB_REGNO_SATP = CSR_SATP + GDB_REGNO_CSR0,
-	GDB_REGNO_CSR4095 = GDB_REGNO_CSR0 + 4095,
-	GDB_REGNO_PRIV = 4161,
+	GDB_REGNO_CSR4095 = GDB_REGNO_CSR0 + 5490,
+	GDB_REGNO_PRIV = 5496,
 	/* It's still undecided what register numbers GDB will actually use for
 	 * these. See
 	 * https://groups.google.com/a/groups.riscv.org/d/msg/sw-dev/7lQYiTUN9Ms/gTxGhzaYBQAJ
